@@ -1,3 +1,14 @@
+/* --------------------------------------------------------------------------------
+Port of: https://github.com/knadh/ml2en
+
+(Phonemic) Romanization of Malayalam script
+Transliterates Malayalam script to Roman characters (aka. 'Manglish')
+Implements some heuristics try to retain a certain level phonemic fairness.
+
+This work is licensed under Apache License 2.0 & MIT
+Author: Yozachar
+-------------------------------------------------------------------------------- */
+
 use fancy_regex::Regex as FancyRegex;
 use regex::Regex;
 use std::collections::HashMap;

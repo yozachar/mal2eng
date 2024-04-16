@@ -7,7 +7,7 @@ description = "An algorithm that transliterates Malayalam script to Roman / Lati
 homepage = "https://github.com/yozachar/mal2eng.rs"
 repository = "https://github.com/yozachar/mal2eng.rs"
 readme = "README.md"
-authors = ["Jovial Joe Jayarson"]
+authors = ["Yozachar"]
 keywords = ["mal2eng", "manglish", "ml2en", "transliterator"]
 categories = ["encoding", "localization", "text-processing", "value-formatting"]
 

@@ -5,8 +5,8 @@ Port of: https://github.com/knadh/ml2en
 Transliterates Malayalam script to Roman characters (aka. 'Manglish')
 Implements some heuristics try to retain a certain level phonemic fairness.
 
-This work is licensed under Apache License 2.0
-Author: Jovial Joe Jayarson
+This work is licensed under Apache License 2.0 & MIT
+Author: Yozachar
 -------------------------------------------------------------------------------- */
 
 mod sketch;
@@ -39,6 +39,8 @@ mod tests {
             ),
             "vyaazhatthinte kaanthikakshethram sauravaathatthe cherukkunna mekhalayaanu vyaazhatthinte kaanthamandalam. sooryanilekkulla dishayil ethaandu ezhupathu laksham kilomeettarum vipareetha dishayil shaniyute parikramanapatham vareyum ithu vyaapicchukitakkunnu. saurayoothatthile grahangalute kaanthamandalangalil vacchu ettavum shakthiyeriyathaanu vyaazhatthintethu. sauramandalam kazhinjaal saurayoothatthile ettavum valiya ghatanayum ithuthanne. bhoomiyute kaanthamandalatthekkaal veethiyeriyathum parannathumaaya vyaazhatthinte kaanthamandalatthinte shakthi bhoomiyootethinte patthirattiyolavum vyaaptham 18000 irattiyolavumaanu."
         );
+
+        println!("{}", m2e.transliterate("ആത്മീയ ഗീതങ്ങൾ", false));
 
         assert_eq!(m2e.transliterate("മലയാളം", true), "Malayaalam");
     }
